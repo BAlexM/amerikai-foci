@@ -1,0 +1,74 @@
+.alap_div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-size: 115%;
+    background-color: #3c6e37;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+body{
+    background: linear-gradient(to left, #ffff, #2ea122);
+}
+.belso_div{
+    margin: 0 auto 0 auto;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown {
+    float: right;
+    position: relative;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+      background-color: #ddd;
+    }
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+.dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+p{
+    color: #ffff;
+}
+img{
+    width: 40%;
+    float: right;
+}
+h1{
+    margin-top: 10%;
+    color: #ffff;
+}
+h2{
+    color: darkgray;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #4f378c;
+}
+a:hover{
+    color: red;
+}
