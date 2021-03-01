@@ -1,0 +1,104 @@
+@font-face{
+  font-family: 'bpmono';
+  src: url('BPmonoBold.ttf');
+}
+@font-face{
+  font-family: 'lib';
+  src: url('LiberationMono-Regular.ttf');
+}
+.alap_div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-size: 115%;
+    background-color: #06158a;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+body{
+    background: linear-gradient(to left, #de0000, #1e00c7);
+}
+.belso_div{
+    margin: 0 auto 0 auto;
+}
+.dropbtn {
+    background-color: #d90202;
+    color: #1e00c7;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown {
+    float: right;
+    position: relative;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+      background-color: #ddd;
+    }
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+.dropdown:hover .dropbtn {
+      background-color: #d90202;
+    }
+    h1{
+      font-family:'bpmono';
+      color: #d90202;
+      margin-left: 10%;
+  }
+  h2{
+      color: #d90202;
+      text-decoration: underline;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 2%
+  }
+  p{
+      color: #d90202;
+      font-family: 'lib';
+  }
+  .p_1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .p_2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .p_3{
+      font-family: 'lib';
+  }
+  footer{
+    margin-left: 2%;
+  }
+  img{
+    width: 20%;
+  }
+  .bent{
+    width: 25%;
+    border:#d90202 solid 3px ;
+  }
+  .kint{
+    width: 40%;
+    margin-left: 15%;
+    border: #d90202 solid 3px ;
+  }
+  a:visited{
+    color: #1e00c7;
+}
+a:hover{
+    color: #d90202;
+}

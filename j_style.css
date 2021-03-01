@@ -1,0 +1,107 @@
+@font-face{
+  font-family:'stepdown';
+  src: url('StepDown.ttf')
+}
+@font-face{
+  font-family: 'lib';
+  src: url('LiberationMono-Regular.ttf');
+}
+.alap_div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-size: 115%;
+    background-color: #3c6e37;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+body{
+    background: linear-gradient(to left, #ffff, #194225);
+}
+.belso_div{
+    margin: 0 auto 0 auto;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown {
+    float: right;
+    position: relative;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+      background-color: #ddd;
+    }
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+.dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    h1{
+      font-family:'stepdown';
+      color: #d9d7d7;
+      margin-left: 10%;
+  }
+  h2{
+      color: #d9d7d7;
+      text-decoration: underline;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 2%
+  }
+  p{
+      color: #c4cfc2;
+      font-family: 'lib';
+  }
+  .p_1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .p_2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .p_3{
+      font-family: 'Courier New', Courier, monospace;
+  }
+  footer{
+    margin-left: 2%;
+  }
+  img{
+    width: 20%;
+  }
+  .bent{
+    width: 34.6%;
+    border:#d9d7d7 solid 3px ;
+  }
+  .kint{
+    width: 35%;
+    margin-left: 15%;
+    border: #d9d7d7 solid 3px ;
+  }
+  .jobb{
+    margin-left: 5%;
+  }
+  a:visited{
+    color: #3c6e37;
+}
+a:hover{
+    color: black;
+}
